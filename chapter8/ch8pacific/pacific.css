@@ -50,10 +50,6 @@ nav ul{
 
 }
 
-nav li {
-    border-bottom: 1px solid #002171; /*bdb#002171*/
-}
-
 nav a {
     text-decoration: none; /*txd*/
 }
