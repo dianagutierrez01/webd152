@@ -48,7 +48,9 @@ nav ul{
     padding-left: 0; /*pl0*/
 
 }
-
+nav li {
+    border-bottom: 1px solid #002171;
+}
 nav a {
     text-decoration: none; /*txd*/
 }
@@ -204,7 +206,7 @@ tr:nth-last-of-type(odd) {
         justify-content: space-around; /*jc*/ 
     }
     nav li {
-        border-block-start: none; /*bbn*/
+        border-bottom: none; /*bbn*/
         
     }
     .flow {
