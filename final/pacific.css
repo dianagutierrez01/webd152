@@ -182,15 +182,24 @@ video{
     width: 100%;
 }
 
-#headshot {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
+main {
+  padding: 20px;
 }
 
-#headshot img{
-    box-shadow: 10px 10px 10px #777;
-    width: 25%;
+#headshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#headshot img {
+  max-width: 25%;
+  height: auto;
+}
+
+section {
+  flex: 1;
 }
 
 @media(max-width:420px){
